@@ -38,7 +38,7 @@ const templating = (arr) => {
                             ${card.body}
                             </p>
                         </div>
-                        <div class="card-footer">
+                        <div class="card-footer d-flex justify-content-between">
                             <button class="btn btn-sm btn-outline-info" onClick="onEdit(this)">Edit</button>
                             <button class="btn btn-sm btn-outline-danger" onClick="onRemove(this)">Remove</button>
                         </div>
@@ -101,7 +101,7 @@ const onPostAdd = (eve) => {
                                     ${newPost.body}
                                     </p>
                                 </div>
-                                <div class="card-footer">
+                                <div class="card-footer d-flex justify-content-between">
                                      <button class="btn btn-sm btn-outline-info" onClick="onEdit(this)">Edit</button>
                                      <button class="btn btn-sm btn-outline-danger" onClick="onRemove(this)">Remove</button>
                                 </div>
